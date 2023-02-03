@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #45f4ff52;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 140px;
+}
+.mini-main{
+    background-color: rgb(254, 252, 252);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    height: 280px;
+    padding: 7px;
+    position: relative;
+    box-shadow: 0px 5px 17px 1px rgba(0,0,0,0.67) inset;
+    border-radius: 9px;
+    margin: 60px;
+}
+h3{
+    position: absolute;
+    top: 0;
+   display: flex;
+   flex-direction: column;
+    color: gray;
+    font-size: 29px;
+    font-family: monospace
+    
+}
+span{
+    padding: 19px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.grid{
+    width: 200px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+.grid div{
+    height: 20px;
+    width: 20px;
+    padding: 2px ;
+    box-shadow: 5px 5px 3px 0px  #e1f4f552 inset;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+   
+}
+.tetromino{
+    background-color: blue;
+}
+/* .taken{ */
+     /* background-color: rgba(30, 136, 165, 0.614);  */
+     
+ /* }  */
+
+.mini-grid{
+    height: 80px;
+    width: 80px;
+    /* background-color: rgb(110, 40, 40); */
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: -30px;
+    
+}
+.mini-grid div{
+    height: 20px;
+    width: 20px;
+    box-shadow: 4px 4px 3px 0px rgb(250 250 250 / 70%) inset;
+}
+.main{
+    display: flex;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#start-btn{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 28px;
+    border-radius: 9px;
+    font-size: 18px;
+}
+.cover{
+    height: 35px;
+    width: 160px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 17px 1px rgba(0,0,0,0.67) inset;
+    border-radius: 9px;
+}
+#line{
+    color: gray;
+    position: relative;
+    bottom: -70px;
+}
+p{
+    padding-left: 18px;
+}
+
